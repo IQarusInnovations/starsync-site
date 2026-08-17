@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StarSync Privacy Policy</title>
+<style>
+  body { background:#000; color:#fff; font-family:-apple-system,'Segoe UI',Roboto,sans-serif;
+         max-width:680px; margin:0 auto; padding:48px 24px; line-height:1.6; }
+  h1 { font-weight:400; letter-spacing:-0.5px; }
+  h2 { font-weight:500; font-size:1.05rem; margin-top:2.2em; letter-spacing:1px;
+       text-transform:uppercase; color:#8a8a8e; }
+  p, li { color:#d0d0d4; }
+  strong { color:#fff; }
+  hr { border:none; border-top:1px solid #1c1c1e; margin:2em 0; }
+  .muted { color:#5a5a5e; font-size:0.9rem; }
+</style>
+</head>
+<body>
+
+<h1>StarSync — Privacy Policy</h1>
+<p class="muted">Effective date: 12 August 2026</p>
+
+<p><strong>The short version: StarSync collects nothing, transmits nothing off your
+network, and has no servers.</strong> The rest of this page spells that out.</p>
+
+<h2>What StarSync does</h2>
+<p>StarSync watches your own Starlink dish and router, on your own local network, and
+notifies you before a firmware update reboots them. It communicates only with two
+addresses on your LAN: <strong>192.168.100.1</strong> (the dish) and
+<strong>192.168.1.1</strong> (the router). It makes no other network connections of
+any kind.</p>
+
+<h2>Data collected</h2>
+<p><strong>None.</strong> StarSync has no accounts, no sign-in, no analytics, no crash
+reporting, no advertising, and no third-party SDKs that collect data. We (the
+developer) receive nothing from your device, ever.</p>
+
+<h2>Data stored on your device</h2>
+<p>StarSync keeps a small amount of data locally, solely so it can do its job:</p>
+<ul>
+  <li>A log of update and reboot events it has observed (device name, firmware
+      versions, timestamps), used to show your history and estimate future reboot
+      times.</li>
+  <li>Your settings, including the reboot hour you may have told the app.</li>
+</ul>
+<p>This data never leaves your device. It is excluded from Android's cloud backup.
+It participates in Android's direct device-to-device transfer if you migrate to a
+new phone, which is a local copy between your own devices. Uninstalling the app, or
+using its "Clear history" and "Reset watch state" controls, deletes it.</p>
+
+<h2>Data shared with third parties</h2>
+<p><strong>None.</strong> There is no mechanism in the app by which data could be
+shared: it has no connection to any server.</p>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Notifications</strong> — the app's entire purpose is to warn you before
+      a reboot.</li>
+  <li><strong>Local network access</strong> (Android 17+) — required to reach your
+      dish and router. This is the only network access the app has.</li>
+  <li><strong>Alarms &amp; reminders</strong> (optional) — lets warnings arrive at
+      the right minute rather than being delayed by battery optimisation. The app
+      works without it, less precisely.</li>
+  <li><strong>Run at startup</strong> — resumes watching after your phone
+      restarts.</li>
+</ul>
+
+<h2>Children</h2>
+<p>StarSync is a network utility intended for adults who administer a Starlink
+connection. It is not directed at children and, collecting no data, collects no data
+from children.</p>
+
+<h2>Changes to this policy</h2>
+<p>If a future version of StarSync ever changes what data is handled — for example,
+adding an opt-in feature that requires any collection — this policy will be updated
+before that version ships, and the change will be called out in the app's update
+notes. The effective date above always reflects the current version.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <strong>benjamin38.h@gmail.com</strong></p>
+
+<hr>
+<p class="muted">StarSync is an independent app. It is not affiliated with, endorsed
+by, or sponsored by SpaceX. Starlink is a trademark of Space Exploration Technologies
+Corp.</p>
+
+</body>
+</html>
